@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * @copyright	Copyright (c) 2024 Ogtags. All rights reserved.
+ * @license		http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ */
+-->
+<extension type="plugin" version="3.0" group="system" method="upgrade">
+	<name>plg_system_ogtags</name>
+	<author>Jlowcode Organization</author>
+	<creationDate>March 2024</creationDate>
+	<copyright>Copyright (C) 2024 Jlowcode Org - All rights reserved.</copyright>
+	<license>GNU/GPL http://www.gnu.org/copyleft/gpl.html</license>
+	<authorEmail>contact@jlowcode.org</authorEmail>
+	<authorUrl>www.jlowcode.org</authorUrl>
+	<version>1.0.0</version>
+	<description>
+	<![CDATA[
+		Projetado para gerar tags Open Graph dinâmicas para artigos do Joomla. 
+		Dev. Jeison Ferreira
+	]]>
+	</description>
+
+	<files>
+		<filename plugin="ogtags">ogtags.php</filename>
+		<filename>index.html</filename>
+	</files>
+
+	<languages>
+		<language tag="en-GB">en-GB.plg_system_ogtags.ini</language>
+		<language tag="en-GB">en-GB.plg_system_ogtags.sys.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>
+
+
